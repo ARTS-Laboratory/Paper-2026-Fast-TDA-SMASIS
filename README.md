@@ -1,5 +1,5 @@
 # Paper 2026-Fast TDA SPIE Defense
-working repository for the 2025 SPIE Defense paper ...
+working repository for the 2026 SPIE Defense paper "FPGA-deployable Approximate Topological Framework for Low-latency Change-point Detection in PCB Shock and Vibration Response."
 
 
 
