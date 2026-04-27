@@ -1,4 +1,4 @@
-# Paper 2026-Fast TDA SMASIS
+# Paper 2026 FPGA-deployable Approximate Topological Framework
 working repository for the 2026 SMASIS paper "FPGA-deployable Approximate Topological Framework for Low-latency Change-point Detection in PCB Shock and Vibration Response."
 
 
