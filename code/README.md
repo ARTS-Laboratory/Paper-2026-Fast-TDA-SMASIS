@@ -31,3 +31,15 @@ Cite this as:
 <p align="center">
 QR code for repo.
 </p>
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Main Folder Notes:
+
+
+## What this folder contains
+
+
+
+
+## Important Notes
+
