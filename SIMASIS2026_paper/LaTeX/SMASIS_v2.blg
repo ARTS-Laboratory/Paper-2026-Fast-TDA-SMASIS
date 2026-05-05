@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SMASIS_v2.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: asmeconf.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: references.bib
+Warning--empty pages in Razmarashooli2023TDA
+Warning--empty pages in Gowdridge2022TopologicalDataAnalysis
+You've used 10 entries,
+            3102 wiz_defined-function locations,
+            810 strings with 9618 characters,
+and the built_in function-call counts, 5595 in all, are:
+= -- 389
+> -- 181
+< -- 19
++ -- 67
+- -- 57
+* -- 354
+:= -- 594
+add.period$ -- 51
+call.type$ -- 10
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 575
+empty$ -- 494
+format.name$ -- 67
+if$ -- 1250
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 136
+newline$ -- 70
+num.names$ -- 10
+pop$ -- 218
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 185
+stack$ -- 0
+substring$ -- 239
+swap$ -- 412
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 29
+width$ -- 12
+write$ -- 131
+(There were 2 warnings)
