@@ -1,0 +1,4 @@
+10 warnings and 26 errors generated.
+Error while processing C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp.
+clang-tidy applied 148 of 148 suggested fixes.
+Suppressed 10 warnings (10 with check filters).

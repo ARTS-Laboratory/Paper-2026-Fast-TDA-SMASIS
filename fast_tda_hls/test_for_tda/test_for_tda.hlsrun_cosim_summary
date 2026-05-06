@@ -1,0 +1,176 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\test_for_tda.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "04/10/26 21:31:59",
+ "timestampMillis": "2049625977",
+ "buildStep": {
+  "cmdId": "174f9296-0e29-4dcb-906e-a754f7a62614",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\logs\\test_for_tda.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\Users\\Charlton.Rolle\\Documents\\test_for_tda\\hls_config.cfg --work_dir test_for_tda ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "C:\\Users\\Charlton.Rolle\\Documents\\test_for_tda\\hls_config.cfg",
+   "--work_dir",
+   "test_for_tda"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Charlton.Rolle\\Documents\\test_for_tda"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/10/26 21:31:59",
+ "timestampMillis": "2049625978",
+ "status": {
+  "cmdId": "174f9296-0e29-4dcb-906e-a754f7a62614",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629810",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "scatter_matrix",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\full_ellipse.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629811",
+ "buildStep": {
+  "cmdId": "9dfcce41-f200-4292-af36-f23d732028db",
+  "name": "cosim_design",
+  "logFile": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\hls\\hls.log",
+  "commandLine": "cosim_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\Charlton.Rolle\\Documents\\test_for_tda"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629811",
+ "status": {
+  "cmdId": "9dfcce41-f200-4292-af36-f23d732028db",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629811",
+ "report": {
+  "path": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\hls\\sim\\report\\scatter_matrix_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629811",
+ "report": {
+  "path": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629812",
+ "report": {
+  "path": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629812",
+ "report": {
+  "path": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "04/10/26 21:32:03",
+ "timestampMillis": "2049629813",
+ "report": {
+  "path": "C:/Users\\Charlton.Rolle\\Documents\\test_for_tda\\test_for_tda\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

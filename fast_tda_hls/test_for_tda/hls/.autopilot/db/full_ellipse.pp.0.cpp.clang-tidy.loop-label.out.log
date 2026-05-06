@@ -1,0 +1,818 @@
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:6060:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:6060:7: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:7034:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:7034:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:7048:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:7048:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:7062:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:7062:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:8679:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:8679:7: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12815:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12816:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12817:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12818:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12819:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
+                                                                       ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12849:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12850:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12851:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12852:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12853:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12854:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12855:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12856:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12857:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12858:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
+                                                                   ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12908:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12909:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12910:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
+                                                                      ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12937:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12938:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12939:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12940:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12941:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12942:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
+                                                                  ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12978:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
+                                                                        ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:12979:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
+                                                                        ^
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13253:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_61_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13253:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13299:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_117_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13299:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13462:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_289_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13462:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13614:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+        for(int i=0;i<W-1;i++){
+        ^~~
+        VITIS_LOOP_449_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13614:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13794:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_629_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13794:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13798:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+    for(int i=0;i<W+1;i++){
+    ^~~
+    VITIS_LOOP_633_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13798:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13908:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+    for (int n=0; n<Nmax; n++){
+    ^~~
+    VITIS_LOOP_743_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13908:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13998:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_840_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:13998:7: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14017:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+      for(int i=0;i<W-1;i++){
+      ^~~
+      VITIS_LOOP_859_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14017:7: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14307:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1173_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14307:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14390:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+    for(int i=0; i<Nmax; i++) {
+    ^~~
+    VITIS_LOOP_1256_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14390:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14796:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+            for (int j = 3; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_68_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14796:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14802:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+                for (int j = 3; j >= I_+1; j--){
+                ^~~
+                VITIS_LOOP_74_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14802:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14806:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_78_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14806:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14854:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+            for (int j = 9; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_145_4: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14854:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14860:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+                for (int j = 9; j >= I_+4; j--){
+                ^~~
+                VITIS_LOOP_151_5: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14860:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14864:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--){
+                ^~~
+                VITIS_LOOP_155_6: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14864:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14879:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+        for (int j = 14; j < 22; j++){
+        ^~~
+        VITIS_LOOP_170_7: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14879:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14887:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++){
+                ^~~
+                VITIS_LOOP_178_8: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14887:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14952:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+            for (int j = 21; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_243_9: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14952:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14958:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+                for (int j = 21; j >= I_+10; j--) {
+                ^~~
+                VITIS_LOOP_249_10: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14958:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14962:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_253_11: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14962:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14977:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+        for (int j = 27; j < 46; j++){
+        ^~~
+        VITIS_LOOP_268_12: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14977:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14985:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_276_13: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:14985:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15214:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+            for (int j = 45; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_505_14: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15214:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15220:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+                for (int j = 45; j >= I_+22; j--){
+                ^~~
+                VITIS_LOOP_511_15: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15220:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15224:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_515_16: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15224:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15234:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+        for (int j = 32-F_; j < 32+I_; j++){
+        ^~~
+        VITIS_LOOP_525_17: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15234:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15238:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+        for (int j = 32+I_; j <= 64; j++){
+        ^~~
+        VITIS_LOOP_529_18: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15238:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15248:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+        for (int j = 37; j < 64; j++) {
+        ^~~
+        VITIS_LOOP_539_19: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15248:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15256:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++){
+                ^~~
+                VITIS_LOOP_547_20: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15256:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15617:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+            for (int j = 63; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_908_21: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15617:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15623:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+                for (int j = 63; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_914_22: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15623:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15627:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_918_23: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15627:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15743:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+            for (int j = 4; j >= I_+1; j--) {
+            ^~~
+            VITIS_LOOP_1034_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15743:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15749:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+                for (int j = 4; j >= I_+1; j--) {
+                ^~~
+                VITIS_LOOP_1040_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15749:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15753:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+                for (int j = I_; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1044_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15753:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15840:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+            for (int j = 10; j >= I_+4; j--) {
+            ^~~
+            VITIS_LOOP_1131_4: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15840:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15846:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+                for (int j = 10; j >= I_+4; j--) {
+                ^~~
+                VITIS_LOOP_1137_5: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15846:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15850:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+                for (int j = I_+3; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1141_6: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15850:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15869:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+        for (int j = wf+3; j < w-1; j++) {
+        ^~~
+        VITIS_LOOP_1160_7: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15869:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15876:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+                for (int j = 0; j < 22; j++) {
+                ^~~
+                VITIS_LOOP_1167_8: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15876:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15992:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+            for (int j = 22; j >= I_+10; j--) {
+            ^~~
+            VITIS_LOOP_1283_9: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15992:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15998:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+                for (int j = 22; j >= I_+10; j--){
+                ^~~
+                VITIS_LOOP_1289_10: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:15998:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16002:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+                for (int j = I_+9; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1293_11: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16002:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16022:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+        for (int j = wf+4; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1313_12: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16022:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16029:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+                for (int j = 0; j < 46; j++) {
+                ^~~
+                VITIS_LOOP_1320_13: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16029:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16291:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+            for (int j = 46; j >= I_+22; j--) {
+            ^~~
+            VITIS_LOOP_1582_14: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16291:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16297:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+                for (int j = 46; j >= I_+22; j--) {
+                ^~~
+                VITIS_LOOP_1588_15: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16297:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16301:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+                for (int j = I_+21; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_1592_16: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16301:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16325:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+        for (int j = wf+5; j < w-1; j++){
+        ^~~
+        VITIS_LOOP_1616_17: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16325:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16332:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+                for (int j = 0; j < 64; j++) {
+                ^~~
+                VITIS_LOOP_1623_18: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16332:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16762:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+            for (int j = 64; j >= I_+31; j--) {
+            ^~~
+            VITIS_LOOP_2053_19: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16762:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16768:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+                for (int j = 64; j >= I_+31; j--) {
+                ^~~
+                VITIS_LOOP_2059_20: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16768:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16772:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+                for (int j = I_+30; j >= 0; j--) {
+                ^~~
+                VITIS_LOOP_2063_21: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16772:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16902:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+            for(int j=3; j>=I+1; j--) {
+            ^~~
+            VITIS_LOOP_2193_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16902:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16909:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+                for(int j=3; j>=I+1; j--) {
+                ^~~
+                VITIS_LOOP_2200_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16909:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16913:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+                for(int j=I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2204_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16913:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16960:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+            for(int j=7; j>=3+I; j--) {
+            ^~~
+            VITIS_LOOP_2251_4: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16960:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16967:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+                for(int j=7; j>=3+I; j--) {
+                ^~~
+                VITIS_LOOP_2258_5: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16967:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16971:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+                for(int j=I+2; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2262_6: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16971:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16989:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+        for(int j=11; j<16; j++) {
+        ^~~
+        VITIS_LOOP_2280_7: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:16989:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17044:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+            for(int j=15; j>=7+I; j--) {
+            ^~~
+            VITIS_LOOP_2335_8: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17044:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17051:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+                for(int j=15; j>=7+I; j--) {
+                ^~~
+                VITIS_LOOP_2342_9: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17051:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17055:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+                for(int j=6+I; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2346_10: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17055:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17073:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+        for(int j=20; j<32; j++) {
+        ^~~
+        VITIS_LOOP_2364_11: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17073:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17162:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+            for(int j=31; j>=I+15; j--) {
+            ^~~
+            VITIS_LOOP_2453_12: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17162:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17169:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+                for(int j=31; j>=I+15; j--) {
+                ^~~
+                VITIS_LOOP_2460_13: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17169:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17173:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+                for(int j=I+14; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2464_14: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17173:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17183:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+        for(int j=32-F; j<32+I; j++) {
+        ^~~
+        VITIS_LOOP_2474_15: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17183:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17187:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+        for(int j=32+I; j<=64; j++) {
+        ^~~
+        VITIS_LOOP_2478_16: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17187:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17198:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+        for(int j=37; j<64; j++) {
+        ^~~
+        VITIS_LOOP_2489_17: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17198:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17206:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+                for(int j=0; j<64; j++) {
+                ^~~
+                VITIS_LOOP_2497_18: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17206:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17531:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+            for(int j=63; j>=I+31; j--) {
+            ^~~
+            VITIS_LOOP_2822_19: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17531:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17538:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+                for(int j=63; j>=I+31; j--) {
+                ^~~
+                VITIS_LOOP_2829_20: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17538:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17542:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+                for(int j=I+30; j>=0; j--) {
+                ^~~
+                VITIS_LOOP_2833_21: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17542:17: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17630:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+   for(int j = 5; j>=I_+2; j--) {
+   ^~~
+   VITIS_LOOP_2921_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17630:4: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17637:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+    for(int j = 5; j>=I_+2; j--) {
+    ^~~
+    VITIS_LOOP_2928_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17637:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17641:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+    for(int j = I_+1; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2932_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17641:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17656:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+  for(int j = 11; j >=7; j--) {
+  ^~~
+  VITIS_LOOP_2947_4: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17656:3: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17688:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+   for(int j = 11; j >= I_+5; j--) {
+   ^~~
+   VITIS_LOOP_2979_5: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17688:4: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17695:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+    for(int j = 11; j>= I_+5; j--) {
+    ^~~
+    VITIS_LOOP_2986_6: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17695:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17699:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+    for(int j = I_+4; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_2990_7: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17699:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17714:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+  for(int j = 25; j>=15; j--) {
+  ^~~
+  VITIS_LOOP_3005_8: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17714:3: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17764:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+   for(int j = 25; j>= I_+12; j--) {
+   ^~~
+   VITIS_LOOP_3055_9: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17764:4: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17771:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+    for(int j = 25; j>=I_+12; j--) {
+    ^~~
+    VITIS_LOOP_3062_10: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17771:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17775:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+    for(int j = I_+11; j>=0; j--) {
+    ^~~
+    VITIS_LOOP_3066_11: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17775:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17790:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+  for(int j = 51; j >= 29; j--) {
+  ^~~
+  VITIS_LOOP_3081_12: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17790:3: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17927:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+   for(int j = 51; j >= 25 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3218_13: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17927:4: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17934:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+    for(int j = 51; j>=25 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3225_14: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17934:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17938:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+    for(int j = 24 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3229_15: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17938:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17953:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+  for(int j = 63; j >= 36; j--) {
+  ^~~
+  VITIS_LOOP_3244_16: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:17953:3: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18113:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+   for(int j = 63; j >= 31 + I_; j--) {
+   ^~~
+   VITIS_LOOP_3404_17: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18113:4: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18120:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+    for(int j = 63; j >= 31 + I_; j--) {
+    ^~~
+    VITIS_LOOP_3411_18: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18120:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18124:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+    for(int j = 30 + I_; j >= 0; j--) {
+    ^~~
+    VITIS_LOOP_3415_19: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18124:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18839:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_703_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:18839:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19057:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_921_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19057:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19474:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+            for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
+            ^~~
+            VITIS_LOOP_1345_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19474:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19794:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+        for ( int pos = msbr-1; pos >= 0; pos-- ) {
+        ^~~
+        VITIS_LOOP_240_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19794:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19822:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+        for ( int pos = -1; pos >= -F_-1; pos-- ) {
+        ^~~
+        VITIS_LOOP_268_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:19822:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20524:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+            for (int j = 0; j < W_-1; j++){
+            ^~~
+            VITIS_LOOP_48_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20524:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20577:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+    for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
+    ^~~
+    VITIS_LOOP_109_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20577:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20591:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+            for (int j = WO_m-1; j >= W_-1; j--) {
+            ^~~
+            VITIS_LOOP_123_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20591:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20621:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+            for (int j = W_-2; j >= 0; j--){
+            ^~~
+            VITIS_LOOP_153_4: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20621:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20706:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+           for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
+           ^~~
+           VITIS_LOOP_281_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20706:12: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20726:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+               for (int j = WO_e-1; j >= W_-1; j--) {
+               ^~~
+               VITIS_LOOP_301_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20726:16: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20740:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+                   for(int i = 0; i < W_-1; ++i) {
+                   ^~~
+                   VITIS_LOOP_315_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20740:20: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20833:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+           for (int j =WO_d-1; j >= W_-1; j--) {
+           ^~~
+           VITIS_LOOP_433_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20833:12: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20847:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+              for(int i = 0; i < W_-1; ++i) {
+              ^~~
+              VITIS_LOOP_447_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20847:15: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20967:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_33_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:20967:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21091:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_183_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21091:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21146:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+            for (int i = 0; i < W_-1; i++){
+            ^~~
+            VITIS_LOOP_248_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21146:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21665:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_16_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21665:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21676:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_27_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21676:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21687:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_38_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21687:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21698:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_49_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21698:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21709:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_60_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21709:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21720:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+ for (int i=0; i<W_;i++)
+ ^~~
+ VITIS_LOOP_71_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21720:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21731:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_82_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21731:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21742:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+ for (int i=0; i<I_;i++)
+ ^~~
+ VITIS_LOOP_93_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:21742:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24102:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+           for(int i = 0; i < W_-1; ++i) {
+           ^~~
+           VITIS_LOOP_26_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24102:12: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24166:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+      for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
+      ^~~
+      VITIS_LOOP_40_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24166:7: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24283:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+        for(int pos = msbr - 1; pos >= 0; pos--) {
+        ^~~
+        VITIS_LOOP_49_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24283:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24308:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+    for(int pos = -1; pos >= -F-1; pos--) {
+    ^~~
+    VITIS_LOOP_81_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24308:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24378:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+       for(int i = 0; i < W - 1; ++i) {
+       ^~~
+       VITIS_LOOP_169_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:24378:8: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26609:2: warning: Added loop label VITIS_LOOP_20_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < 3; i++) {
+ ^~~
+ VITIS_LOOP_20_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26609:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26613:2: warning: Added loop label VITIS_LOOP_24_2:   [xilinx-label-all-loops]
+ for (int j = 0; j < 3; j++) {
+ ^~~
+ VITIS_LOOP_24_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26613:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26622:5: warning: Added loop label VITIS_LOOP_33_3:   [xilinx-label-all-loops]
+    for (int iter = 0; iter < max_iter; iter++) {
+    ^~~
+    VITIS_LOOP_33_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26622:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26629:9: warning: Added loop label VITIS_LOOP_40_4:   [xilinx-label-all-loops]
+        for (int i = 0; i < 2; i++) {
+        ^~~
+        VITIS_LOOP_40_4: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26629:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26630:13: warning: Added loop label VITIS_LOOP_41_5:   [xilinx-label-all-loops]
+            for (int j = i + 1; j < 3; j++) {
+            ^~~
+            VITIS_LOOP_41_5: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26630:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26650:9: warning: Added loop label VITIS_LOOP_61_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < 3; i++) {
+        ^~~
+        VITIS_LOOP_61_6: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26650:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26669:9: warning: Added loop label VITIS_LOOP_80_7:   [xilinx-label-all-loops]
+        for (int i = 0; i < 3; i++) {
+        ^~~
+        VITIS_LOOP_80_7: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26669:9: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26723:5: warning: Added loop label VITIS_LOOP_130_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < 6; i++) {
+    ^~~
+    VITIS_LOOP_130_1: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26723:5: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26727:2: warning: Added loop label VITIS_LOOP_134_2:   [xilinx-label-all-loops]
+ for (int j = 0; j < 6; j++) {
+ ^~~
+ VITIS_LOOP_134_2: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26727:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26740:2: warning: Added loop label VITIS_LOOP_147_3:   [xilinx-label-all-loops]
+ for (int i = 0; i < 3; i++) {
+ ^~~
+ VITIS_LOOP_147_3: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26740:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26743:2: warning: Added loop label VITIS_LOOP_150_4:   [xilinx-label-all-loops]
+ for (int j = 0; j < 3; j++) {
+ ^~~
+ VITIS_LOOP_150_4: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26743:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26781:2: warning: Added loop label VITIS_LOOP_188_5:   [xilinx-label-all-loops]
+ for (int i = 0; i < 3; i++) {
+ ^~~
+ VITIS_LOOP_188_5: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26781:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26783:2: warning: Added loop label VITIS_LOOP_190_6:   [xilinx-label-all-loops]
+ for (int j = 0; j < 3; j++) {
+ ^~~
+ VITIS_LOOP_190_6: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26783:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26786:13: warning: Added loop label VITIS_LOOP_193_7:   [xilinx-label-all-loops]
+            for (int k = 0; k < 3; k++) {
+            ^~~
+            VITIS_LOOP_193_7: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26786:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26799:2: warning: Added loop label VITIS_LOOP_206_8:   [xilinx-label-all-loops]
+ for (int i = 0; i < 3; i++) {
+ ^~~
+ VITIS_LOOP_206_8: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26799:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26802:2: warning: Added loop label VITIS_LOOP_209_9:   [xilinx-label-all-loops]
+ for (int j = 0; j < 3; j++) {
+ ^~~
+ VITIS_LOOP_209_9: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26802:2: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26805:13: warning: Added loop label VITIS_LOOP_212_10:   [xilinx-label-all-loops]
+            for (int k = 0; k < 3; k++) {
+            ^~~
+            VITIS_LOOP_212_10: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26805:13: note: FIX-IT applied suggested code changes
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26839:5: warning: Added loop label VITIS_LOOP_246_11:   [xilinx-label-all-loops]
+    for (int i = 0; i < 6; i++) {
+    ^~~
+    VITIS_LOOP_246_11: 
+C:\Users\Charlton.Rolle\Documents\test_for_tda\test_for_tda\hls\.autopilot\db\full_ellipse.pp.0.cpp:26839:5: note: FIX-IT applied suggested code changes

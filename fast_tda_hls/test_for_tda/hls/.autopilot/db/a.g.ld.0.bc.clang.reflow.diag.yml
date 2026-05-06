@@ -1,0 +1,2872 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 700, Column: 5 }
+Function:        _ZN7cordic_13atan2_genericIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void cordic_::cordic_circ_v1<42, 1, 0, 0, 43, 4, 40, 1>(ap_fixed<43, 4, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<43, 4, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_fixed<40, 1, (ap_q_mode)5, (ap_o_mode)3, 0>&)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 120, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_generic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 648, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 246, Column: 24 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_246_11
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 206, Column: 20 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_206_8
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 209, Column: 20 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_209_9
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 212, Column: 32 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 188, Column: 20 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_188_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 190, Column: 20 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_190_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 193, Column: 31 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 147, Column: 20 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_147_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 150, Column: 20 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_150_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 130, Column: 23 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_130_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 134, Column: 20 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_134_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 33, Column: 22 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_33_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 40, Column: 26 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 41, Column: 30 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 61, Column: 26 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 80, Column: 26 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 20, Column: 19 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_20_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 24, Column: 19 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_24_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 289, Column: 5 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 282, Column: 5 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 269, Column: 5 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 268, Column: 41 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 138, Column: 2 }
+Function:        _ZN7cordic_13atan2_genericIfEET_S1_S1_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        anonymous
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Missed
+Pass:            reflow-infer-loop-tripcount
+Name:            UpdateLoopBound
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Updating loop '
+  - String:          lower
+  - String:          ' bound from '
+  - OldBound:        '1'
+  - String:          ' to '
+  - NewBound:        '3'
+  - String:          ' for loop '''
+  - LoopName:        VITIS_LOOP_20_1
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:20:19'
+  - String:          ')'
+  - String:          ' in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          '''.'
+...
+--- !Missed
+Pass:            reflow-infer-loop-tripcount
+Name:            UpdateLoopBound
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Updating loop '
+  - String:          upper
+  - String:          ' bound from '
+  - OldBound:        '1'
+  - String:          ' to '
+  - NewBound:        '3'
+  - String:          ' for loop '''
+  - LoopName:        VITIS_LOOP_20_1
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:20:19'
+  - String:          ')'
+  - String:          ' in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          '''.'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_246_11
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:246:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_206_8
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:206:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_209_9
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:209:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_209_9
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:209:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_209_9
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:209:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_212_10
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:212:32'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         ''
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '9'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_188_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:188:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_190_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:190:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_190_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:190:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_190_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:190:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_193_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:193:31'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         ''
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '9'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         ''
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '9'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_147_3
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:147:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_150_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:150:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_150_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:150:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_150_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:150:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_130_1
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:130:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_134_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:134:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_134_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:134:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_134_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:134:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_134_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:134:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_134_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:134:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_134_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:134:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          scatter_matrix
+  - String:          ''' completely with a factor of '
+  - Factor:          '6'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_33_3
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:33:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        VITIS_LOOP_33_3
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:33:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_80_7
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:80:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_61_6
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:61:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_40_4
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:40:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_41_5
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:41:30'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_20_1
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:20:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_24_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:24:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_24_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:24:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_24_2
+  - String:          ''' ('
+  - LoopLoc:         'full_ellipse.cpp:24:19'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          jacobi_eigen_3x3
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:289:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'scaled_fixed2ieee<29, 1>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:282:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'scaled_fixed2ieee<29, 1>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:269:5'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'scaled_fixed2ieee<29, 1>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:268:41'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'scaled_fixed2ieee<29, 1>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '2'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         ''
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'scaled_fixed2ieee<29, 1>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         ''
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'scaled_fixed2ieee<29, 1>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 648, Column: 0 }
+Function:        _ZN7cordic_13atan2_genericIfEET_S1_S1_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        anonymous
+  - String:          ''' ('
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h:138:2'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'cordic_::atan2_generic<float>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '42'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                   Line: 322, Column: 0 }
+Function:        _ZNK9fp_structIfE8to_floatEv.52.62.71.82
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::data() const (.34.55.65.74.85)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 309, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<float>::to_float() const (.52.62.71.82)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 322, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                   Line: 346, Column: 0 }
+Function:        _ZNK9fp_structIfE7to_ieeeEv
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_float() const (.52.62.71.82)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 322, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 346, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h', 
+                   Line: 10, Column: 0 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h', 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h', 
+                   Line: 10, Column: 0 }
+Function:        _Z16generic_copysignIfET_S0_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 346, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h', 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_fabs.h', 
+                   Line: 12, Column: 0 }
+Function:        _Z12generic_fabsIfET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h', 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_fabs.h', 
+                       Line: 12, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\fabsfloat.cpp', 
+                   Line: 6, Column: 0 }
+Function:        _ZN3hls4fabsEf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_fabs<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_fabs.h', 
+                       Line: 12, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::fabs(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\fabsfloat.cpp', 
+                       Line: 6, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\fabsfloat.cpp', 
+                   Line: 10, Column: 0 }
+Function:        _ZN3hls5fabsfEf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::fabs(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\fabsfloat.cpp', 
+                       Line: 6, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::fabsf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\fabsfloat.cpp', 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isnan.h', 
+                   Line: 16, Column: 0 }
+Function:        _Z13generic_isnanIfEiT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'int generic_isnan<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isnan.h', 
+                       Line: 16, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_nan.h', 
+                   Line: 10, Column: 0 }
+Function:        _Z11generic_nanIfET_PKc
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 346, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_nan.h', 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isinf.h', 
+                   Line: 16, Column: 0 }
+Function:        _Z13generic_isinfIfEiT_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'int generic_isinf<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isinf.h', 
+                       Line: 16, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_abs.h', 
+                   Line: 13, Column: 0 }
+Function:        _Z11generic_absIfET_S0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_copysign<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_copysign.h', 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float generic_abs<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_abs.h', 
+                       Line: 13, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 648, Column: 0 }
+Function:        _ZN7cordic_13atan2_genericIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_generic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 648, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 648, Column: 0 }
+Function:        _ZN7cordic_13atan2_genericIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'cordic_::atan_traits<float>::div(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 530, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_generic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 648, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 648, Column: 0 }
+Function:        _ZN7cordic_13atan2_genericIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::mantissa() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 340, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_generic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 648, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 711, Column: 0 }
+Function:        _ZN7cordic_L15atan2_cordic_Q1IfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic_Q1<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 711, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 711, Column: 0 }
+Function:        _ZN7cordic_L15atan2_cordic_Q1IfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::data() const (.34.55.65.74.85)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 309, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic_Q1<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 711, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 711, Column: 0 }
+Function:        _ZN7cordic_L15atan2_cordic_Q1IfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 346, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic_Q1<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 711, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 725, Column: 0 }
+Function:        _ZN7cordic_12atan2_cordicIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 725, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 725, Column: 0 }
+Function:        _ZN7cordic_12atan2_cordicIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'int generic_isnan<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isnan.h', 
+                       Line: 16, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 725, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 725, Column: 0 }
+Function:        _ZN7cordic_12atan2_cordicIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_nan<float>(char const*)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_nan.h', 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 725, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 725, Column: 0 }
+Function:        _ZN7cordic_12atan2_cordicIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::__signbit() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 349, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 725, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 725, Column: 0 }
+Function:        _ZN7cordic_12atan2_cordicIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'int generic_isinf<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isinf.h', 
+                       Line: 16, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 725, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 725, Column: 0 }
+Function:        _ZN7cordic_12atan2_cordicIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float generic_abs<float>(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_abs.h', 
+                       Line: 13, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 725, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                   Line: 725, Column: 0 }
+Function:        _ZN7cordic_12atan2_cordicIfEET_S1_S1_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'float cordic_::atan2_cordic_Q1<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 711, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float cordic_::atan2_cordic<float>(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_cordic.h', 
+                       Line: 725, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\atan2float.cpp', 
+                   Line: 10, Column: 0 }
+Function:        _ZN3hls6atan2fEff
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::atan2(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\atan2float.cpp', 
+                       Line: 6, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::atan2f(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\atan2float.cpp', 
+                       Line: 10, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                   Line: 437, Column: 0 }
+Function:        _Z29range_redux_payne_hanek_hotbmILi29EfLi29ELi29EEvT0_R7ap_uintILi3EER9ap_ufixedIXT1_ELi0EL9ap_q_mode5EL9ap_o_mode3ELi0EERS4_IXT2_ELi0ELS5_5ELS6_3ELi0EER6ap_intIXsr9fp_structIS0_EE8EXP_BITSEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                       Line: 437, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                   Line: 437, Column: 0 }
+Function:        _Z29range_redux_payne_hanek_hotbmILi29EfLi29ELi29EEvT0_R7ap_uintILi3EER9ap_ufixedIXT1_ELi0EL9ap_q_mode5EL9ap_o_mode3ELi0EERS4_IXT2_ELi0ELS5_5ELS6_3ELi0EER6ap_intIXsr9fp_structIS0_EE8EXP_BITSEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::expv() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 316, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                       Line: 437, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                   Line: 437, Column: 0 }
+Function:        _Z29range_redux_payne_hanek_hotbmILi29EfLi29ELi29EEvT0_R7ap_uintILi3EER9ap_ufixedIXT1_ELi0EL9ap_q_mode5EL9ap_o_mode3ELi0EERS4_IXT2_ELi0ELS5_5ELS6_3ELi0EER6ap_intIXsr9fp_structIS0_EE8EXP_BITSEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_uint<(((2) * ((23) + (1))) + (29)) + (3)> table_lookup_4oPi_hotbm<23, 29>(int, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                       Line: 374, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                       Line: 437, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                   Line: 437, Column: 0 }
+Function:        _Z29range_redux_payne_hanek_hotbmILi29EfLi29ELi29EEvT0_R7ap_uintILi3EER9ap_ufixedIXT1_ELi0EL9ap_q_mode5EL9ap_o_mode3ELi0EERS4_IXT2_ELi0ELS5_5ELS6_3ELi0EER6ap_intIXsr9fp_structIS0_EE8EXP_BITSEE
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'unsigned int clz<29, 58, 0>(ap_ufixed<58, 0, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_normalize.h', 
+                       Line: 70, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                       Line: 437, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'clz(int)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_normalize.h', 
+                       Line: 79, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                       Line: 257, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::set_mantissa(ap_ufixed<24, 1, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 336, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                       Line: 257, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 257, Column: 0 }
+Function:        _Z17scaled_fixed2ieeeILi29ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERfi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 346, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                       Line: 257, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 210, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::fp_struct(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 283, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float hotbm_::sin_or_cos<float>(float, bool, bool)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                       Line: 210, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 210, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h', 
+                       Line: 437, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float hotbm_::sin_or_cos<float>(float, bool, bool)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                       Line: 210, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 210, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0> hotbm_::value_list<float>::sin_or_cos_approximation<29, 29>(bool, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<8>&)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp', 
+                       Line: 12, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float hotbm_::sin_or_cos<float>(float, bool, bool)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                       Line: 210, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 210, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                       Line: 257, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float hotbm_::sin_or_cos<float>(float, bool, bool)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                       Line: 210, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 210, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fp_struct<float>::to_ieee() const'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
+                       Line: 346, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'float hotbm_::sin_or_cos<float>(float, bool, bool)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                       Line: 210, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                   Line: 12, Column: 0 }
+Function:        _ZN3hls5hotbm3cosEf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hotbm_::cos(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp', 
+                       Line: 126, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::hotbm::cos(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 12, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                   Line: 44, Column: 0 }
+Function:        _ZN3hls4cosfEf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::hotbm::cos(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 12, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::cosf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 44, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                   Line: 9, Column: 0 }
+Function:        _ZN3hls5hotbm3sinEf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hotbm_::sin(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp', 
+                       Line: 122, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::hotbm::sin(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                   Line: 41, Column: 0 }
+Function:        _ZN3hls4sinfEf
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::hotbm::sin(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 9, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'hls::sinf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 41, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::atan2f(float, float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\atan2float.cpp', 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'jacobi_eigen_3x3(float (*) [3], float (*) [3])'
+    DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::cosf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 44, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'jacobi_eigen_3x3(float (*) [3], float (*) [3])'
+    DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+Function:        _Z16jacobi_eigen_3x3PA3_fS0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::sinf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 41, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'jacobi_eigen_3x3(float (*) [3], float (*) [3])'
+    DebugLoc:        { File: full_ellipse.cpp, Line: 15, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::fabsf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\fabsfloat.cpp', 
+                       Line: 10, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          scatter_matrix
+    DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::sqrtf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sqrtfloat.cpp', 
+                       Line: 11, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          scatter_matrix
+    DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: full_ellipse.cpp, Line: 108, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZ14scatter_matrixE1S
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp', 
+                   Line: 14, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN6hotbm_10value_listIfE24sin_or_cos_approximationILi29ELi29EEE9ap_ufixedIXT_ELi1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbR7ap_uintILi3EERS3_IXT_ELi0ELS4_5ELS5_3ELi0EERS3_IXT0_ELi0ELS4_5ELS5_3ELi0EER6ap_intILi8EEE10swap_table
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 217, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN6hotbm_10sin_or_cosIfEET_S1_bbE13neg_cos_table
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 216, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN6hotbm_10sin_or_cosIfEET_S1_bbE13neg_sin_table
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 215, Column: 0 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZN6hotbm_10sin_or_cosIfEET_S1_bbE10swap_table
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 242, Column: 30 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp', 
+                   Line: 25, Column: 67 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 267, Column: 8 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Failure
+Pass:            reflow-array-partition
+Name:            WarnArrayXFORMOnIndexCast
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                   Line: 267, Column: 8 }
+Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
+Args:            
+  - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: full_ellipse.cpp, Line: 203, Column: 16 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          A
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: full_ellipse.cpp, Line: 220, Column: 16 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          V
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: full_ellipse.cpp, Line: 92, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          S_tilde
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: full_ellipse.cpp, Line: 97, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=_ZZ14scatter_matrixE12accel_buffer'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  scatter_matrix
+  - String:          ' '
+  - varLoc:          'full_ellipse.cpp:97:0'
+  - String:          ' '
+  - PragmaSrcLoc:    'full_ellipse.cpp:102:9'
+    DebugLoc:        { File: full_ellipse.cpp, Line: 102, Column: 9 }
+  - VarName:         'scatter_matrix::accel_buffer'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: full_ellipse.cpp, Line: 102, Column: 9 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            'scatter_matrix::accel_buffer'
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: full_ellipse.cpp, Line: 97, Column: 0 }
+Function:        scatter_matrix
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          _ZZ14scatter_matrixE12accel_buffer
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...

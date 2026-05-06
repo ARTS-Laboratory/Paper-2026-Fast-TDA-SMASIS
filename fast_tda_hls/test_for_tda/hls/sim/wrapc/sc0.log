@@ -1,0 +1,7 @@
+   Build using "C:/Xilinx/Vitis_HLS/2024.1/vcxx/libexec/clang++"
+   Compiling test_main_ellipse.cpp_pre.cpp.tb.cpp
+   Compiling full_ellipse.cpp_pre.cpp.tb.cpp
+   Compiling apatb_scatter_matrix.cpp
+   Compiling apatb_scatter_matrix_util.cpp
+   Compiling apatb_scatter_matrix_ir.ll
+   Generating cosim.tv.exe

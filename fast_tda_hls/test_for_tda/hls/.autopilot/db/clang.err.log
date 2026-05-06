@@ -1,0 +1,31 @@
+full_ellipse.cpp:21:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Init_Eigenvectors
+        ^
+full_ellipse.cpp:34:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Jacobi_Main_Iteration
+        ^
+full_ellipse.cpp:42:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Find_Largest_Off_Diagonal
+        ^
+full_ellipse.cpp:62:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Apply_Rotation_To_M
+        ^
+full_ellipse.cpp:81:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Update_Eigenvectors
+        ^
+full_ellipse.cpp:131:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Update_Scatter_Matrix
+        ^
+full_ellipse.cpp:149:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Extract_Schur_Blocks
+        ^
+full_ellipse.cpp:207:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Apply_invD_Transformation
+        ^
+full_ellipse.cpp:225:9: warning: unknown HLS pragma ignored [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_NAME Extract_Ellipse_Params
+        ^
+full_ellipse.cpp:226:9: warning: '#pragma HLS loop_tripcount' can only be applied inside loop body [-Winvalid-hls-pragmas]
+#pragma HLS LOOP_TRIPCOUNT min=1 max=1 avg=1
+        ^
+10 warnings generated.

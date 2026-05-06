@@ -1,0 +1,77 @@
+{
+  "0": {
+    "basicblocks": 5,
+    "calls": "1",
+    "file": "full_ellipse.cpp",
+    "fileloc": 92,
+    "instructions": 482,
+    "loads": {
+      "G": 44,
+      "L": 3
+    },
+    "name": "scatter_matrix",
+    "stores": {
+      "G": 44,
+      "L": 9,
+      "T": 9
+    },
+    "total_instructions": 43281
+  },
+  "1": {
+    "basicblocks": 351,
+    "calls": "3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3",
+    "file": "full_ellipse.cpp",
+    "fileloc": 15,
+    "instructions": 1887,
+    "loads": {
+      "L": 9
+    },
+    "name": "jacobi_eigen_3x3",
+    "stores": {
+      "L": 333
+    },
+    "total_instructions": 42799
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_copysign.h",
+    "fileloc": 10,
+    "instructions": 11,
+    "name": "generic_copysign<float>",
+    "total_instructions": 11
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "fabsfloat.cpp",
+    "fileloc": 10,
+    "instructions": 8,
+    "name": "fabsf",
+    "total_instructions": 8
+  },
+  "4": {
+    "basicblocks": 13,
+    "calls": "",
+    "file": "hls_hotbm.h",
+    "fileloc": 209,
+    "instructions": 212,
+    "loads": {
+      "G": 4
+    },
+    "name": "sin_or_cos<float>",
+    "total_instructions": 212
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 346,
+    "instructions": 9,
+    "loads": {
+      "L": 3
+    },
+    "name": "to_ieee",
+    "total_instructions": 9
+  }
+}
