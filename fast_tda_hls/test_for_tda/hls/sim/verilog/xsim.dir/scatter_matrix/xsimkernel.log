@@ -1,4 +1,0 @@
-Running: xsim.dir/scatter_matrix/xsimk.exe -simmode gui -wdb scatter_matrix.wdb -simrunnum 0 -socket 58344
-Design successfully loaded
-Design Loading Memory Usage: 371980 KB (Peak: 371980 KB)
-Design Loading CPU Usage: 655 ms
